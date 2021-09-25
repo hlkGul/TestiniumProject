@@ -17,8 +17,8 @@ public class TestGittiGidiyor extends BaseTest {
     ProductsPage productsPage;
     BasketPage basketPage;
 
-    String _email = "halukgl29@gmail.com";
-    String _password = "Az500g90+";
+    String _email = "EmailAdresiniz";
+    String _password = "Şifreniz";
     String _productName = "Bilgisayar";
     String firstPrice;
 
