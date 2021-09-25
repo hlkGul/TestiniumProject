@@ -17,8 +17,8 @@ public class TestGittiGidiyor extends BaseTest {
     ProductsPage productsPage;
     BasketPage basketPage;
 
-    String _email = "EmailAdresiniz";
-    String _password = "Şifreniz";
+    String _email = "email";
+    String _password = "password";
     String _productName = "Bilgisayar";
     String firstPrice;
 
@@ -64,7 +64,7 @@ public class TestGittiGidiyor extends BaseTest {
     }
     @Test
     @Order(6)
-    public void selectRandomProduct() {
+    public void selectRandomProduct() throws InterruptedException {
         productsPage.selectRandomProduct();
     }
 

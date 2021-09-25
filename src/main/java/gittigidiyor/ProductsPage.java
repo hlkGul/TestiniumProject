@@ -31,13 +31,14 @@ public class ProductsPage extends BasePage {
         return Integer.parseInt(currentUrl.substring(currentUrl.length() - 1));
     }
 
-    public void selectRandomProduct() {
+    public void selectRandomProduct() throws InterruptedException{
 
         int randNum = rand.nextInt(32) + 1;
         if (randNum == 1) {
             randNum +=2;
         }
         List<WebElement> productList = findAllElements(listOfProductsLocator);
+        Thread.sleep(2000);
         productList.get(randNum).click();
     }
 
