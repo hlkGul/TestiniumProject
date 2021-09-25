@@ -1,4 +1,5 @@
 # selenium project with POM design for Testinium.
+- Add e-mail and password inside test class.
 
 ## Test Steps 
 
