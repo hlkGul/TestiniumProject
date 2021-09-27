@@ -11,9 +11,5 @@
 - Go to Basket.
 - Compare prices at Product Detail Page and Basket Page.
 - Increase the amount of product.
-- Delete product from basket.
+- Delete product from basket
 
-
-## To run the tests
-
-- "mvn clean test" will be enough.
